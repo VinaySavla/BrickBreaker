@@ -301,7 +301,7 @@ class BrickBreaker {
 		
 		obj.setBounds(10, 10, 700, 600); //For Windows Size
 		obj.setTitle("Breakout Ball"); //Title of the Game
-		obj.setResizable(false); //One method for ensuring that a graphical interface looks the way you intend is to prevent the user from re-sizing it, using this method of JFrame:
+		obj.setResizable(false); //To prevent users from resizing the windows
 		obj.setVisible(true); //To make Frame Appeare on the screen
 		obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //To close the Window
 		obj.add(gamePlay); // To Fetch Gameplay Class 
