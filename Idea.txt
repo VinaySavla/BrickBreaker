@@ -1,0 +1,12 @@
+-- Component creating
+Ball
+Brick
+Paddle
+
+-- logic to develop
+- Movement of ball
+- Brick break
+- Paddle Move
+- Score increase 
+- Display Score at end
+- replay (optional)
